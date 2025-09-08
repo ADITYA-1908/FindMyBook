@@ -36,6 +36,5 @@ The app helps users like **Alex (a college student)** search for books effortles
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/book-finder.git
-cd book-finder
+git clone https://github.com/ADITYA-1908/FindMyBook
 npm run dev 
