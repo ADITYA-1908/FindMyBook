@@ -15,7 +15,7 @@ const SearchForm = ({ onSearch, isLoading }) => {
     <div className="relative">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-gradient-to-r from-primary-500/10 via-purple-500/10 to-secondary-500/10 rounded-3xl blur-3xl"></div>
-      
+
       <div className="relative glass-effect rounded-3xl shadow-large p-8 mb-8 border border-white/30">
         <div className="text-center mb-8">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-primary-500 to-purple-600 rounded-2xl mb-4 shadow-colored animate-float">
@@ -30,7 +30,7 @@ const SearchForm = ({ onSearch, isLoading }) => {
             Discover your next great read from millions of books worldwide
           </p>
         </div>
-        
+
         <form onSubmit={handleSubmit} className="max-w-4xl mx-auto">
           <div className="flex flex-col lg:flex-row gap-4 mb-6">
             <div className="flex-1">
@@ -54,7 +54,7 @@ const SearchForm = ({ onSearch, isLoading }) => {
                 </div>
               </div>
             </div>
-            
+
             <div className="lg:w-48">
               <label htmlFor="searchType" className="block text-sm font-semibold text-gray-700 mb-3">
                 Search Category
@@ -73,7 +73,7 @@ const SearchForm = ({ onSearch, isLoading }) => {
               </select>
             </div>
           </div>
-          
+
           <div className="text-center">
             <button
               type="submit"

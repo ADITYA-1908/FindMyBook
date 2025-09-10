@@ -31,7 +31,7 @@ const LoadMoreButton = ({ onLoadMore, isLoading, hasMore, currentCount, totalCou
             )}
           </div>
         </button>
-        
+
         <div className="glass-effect rounded-xl px-6 py-3 border border-white/30">
           <div className="flex items-center space-x-4 text-sm">
             <div className="flex items-center space-x-2">
@@ -48,10 +48,10 @@ const LoadMoreButton = ({ onLoadMore, isLoading, hasMore, currentCount, totalCou
               </span>
             </div>
           </div>
-          
+
           {/* Progress bar */}
           <div className="mt-3 w-full bg-gray-200 rounded-full h-2 overflow-hidden">
-            <div 
+            <div
               className="h-full bg-gradient-to-r from-primary-500 to-purple-600 rounded-full transition-all duration-500 ease-out"
               style={{ width: `${Math.min(100, (currentCount / totalCount) * 100)}%` }}
             ></div>

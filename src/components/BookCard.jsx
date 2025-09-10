@@ -5,7 +5,7 @@ const BookCard = ({ book }) => {
     }
     return null;
   };
-
+  
   const formatAuthors = (authors) => {
     if (!authors) return 'Unknown Author';
     if (authors.length === 1) return authors[0];
